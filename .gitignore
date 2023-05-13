@@ -29,3 +29,4 @@ migrate_working_dir/
 .packages
 build/
 .test_case_builder
+example/pubspec.lock
