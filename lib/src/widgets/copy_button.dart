@@ -42,7 +42,7 @@ class _CopyButtonState extends State<CopyButton> {
             : widget.iconBuilder!(_copied),
         onTap: () async {
           final textWidget = widget.textWidget;
-          String text = '';
+          String? text;
           if (textWidget is RichText) {
             text = textWidget.text.toPlainText();
           }
